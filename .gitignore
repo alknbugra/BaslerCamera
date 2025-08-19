@@ -1,0 +1,21 @@
+# Build klasörleri
+bin/
+obj/
+
+# Visual Studio dosyaları
+.vs/
+*.user
+*.suo
+*.pdb
+
+# Paketler
+*.nupkg
+packages/
+
+# Diğer geçici dosyalar
+*.log
+
+# BaslerCameraConfiguration altındaki build klasörleri
+BaslerCameraConfiguration/bin/
+BaslerCameraConfiguration/obj/
+
