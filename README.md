@@ -47,7 +47,6 @@ Ana ekran üzerinden kamera bağlama, görüntü alma ve ayar yapma işlemleri t
 
 ![BaslerCamera](images/Görsel1.png)
 ![BaslerCamera](images/Görsel3.png)
-![BaslerCamera](images/Görsel2.png)
 ![BaslerCamera](images/Görsel4.jpg)
 ![BaslerCamera](images/Görsel5.jpg)
 
