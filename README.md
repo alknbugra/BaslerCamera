@@ -56,3 +56,20 @@ Ana ekran üzerinden kamera bağlama, görüntü alma ve ayar yapma işlemleri t
 1. Bu projeyi bilgisayarına klonla:
    ```bash
    git clone https://github.com/alknbugra/BaslerCamera.git
+   Projeyi Visual Studio üzerinden aç.
+   Gerekli bağımlılıkları yükle:
+   Basler Runtime veya Pylon SDK
+   Uygulamayı çalıştır ve kameranı bağla.
+   
+## Notlar
+
+Kamera modeli: Basler A2A2448-75ucBAS (CMOS, USB 3.0, 2448 x 2048, 75 fps)
+Proje, .NET (C#) WinForms ile geliştirilmiştir.
+Arayüz modüler olup başka Basler kameralarına da uyarlanabilir.
+
+## 📷 Örnek Kullanım Senaryosu
+
+- Kamera bağlanır → yazılım otomatik algılar.
+- Kullanıcı uygun parametreleri ayarlar (ör. ExposureTime = 12000 µs, Gain = 5 dB).
+- Ayarlar kaydedilir ve sonraki açılışta otomatik yüklenir.
+- Test görüntüsü alınır ve kaydedilir.
