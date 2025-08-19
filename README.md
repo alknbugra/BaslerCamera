@@ -8,37 +8,51 @@
 ![Issues](https://img.shields.io/github/issues/alknbugra/CognexBarcodeReader)
 ![Release](https://img.shields.io/github/v/release/alknbugra/CognexBarcodeReader)
 
+# 📷 Basler A2A2448-75ucBAS Kamera Config Arayüzü
 
-# CognexBarcodeReader
+Bu proje, **Basler A2A2448-75ucBAS** model endüstriyel kameranın parametrelerini kolayca yönetmek için geliştirilmiş bir **konfigürasyon arayüzünü** içerir.  
+Arayüz, kamera ayarlarının hızlıca düzenlenmesini ve test edilmesini sağlar.  
 
-**Cognex DM280X barkod okuyucu ile Type-C kablosu üzerinden seri port iletiimi sağlayan örnek uygulama.**
+---
 
-#Özellikler
+## 🚀 Özellikler
 
-- Barkod okuma
-- Okunan barkod verilerini ekran görüntüsü ile birlikte gösterme
+- **Kamera Bağlantısı**
+  - USB 3.0 üzerinden otomatik kamera tespiti
+  - Bağlantı durumunun canlı olarak takip edilmesi
 
-# Görsel
-![Barkod Okuma](images/Picture3.jpg)
-![Barkod Okuma](images/Picture4.jpg)
-![Barkod Okuma](images/AppGif.gif)
+- **Görüntü Alma**
+  - Tek kare (single frame) veya sürekli (continuous) görüntü alma
+  - Anlık görüntü önizlemesi
 
-# Kurulum
+- **Temel Ayar Yönetimi**
+  - Exposure Time (Pozlama süresi)
+  - Gain (Kazanç)
+  - White Balance (Beyaz dengesi)
+  - Frame Rate (FPS)
 
-```bash
-# Repo'yu klonla
-git clone https://github.com/alknbugra/CognexBarcodeReader.git
+- **Gelişmiş Parametreler**
+  - Trigger Mode (Software / Hardware tetikleme)
+  - Pixel Format seçimleri
+  - ROI (Region of Interest) ayarları
+  - Gamma, Brightness, Contrast kontrolleri
 
-# Dizine gir
-cd CognexBarcodeReader
+---
 
-# Gerekli bağımlılıkları yükle
-- (C# projesi olduğundan, örnek Visual Studio ortamında açılabilir veya dotnet CLI ile)
-- dotnet restore veya Visual Studio ile sln dosyasını aç
+## 🖥️ Arayüz Görünümü
 
-# Uygulamayı çalıştır
-- Visual Studio üzerinden F5 ile ya da dotnet run komutu (varsa) ile çalıştır
+📌 Arayüz, kullanıcı dostu olacak şekilde tasarlanmıştır.  
+Ana ekran üzerinden kamera bağlama, görüntü alma ve ayar yapma işlemleri tek tıkla gerçekleştirilebilir.  
 
-# Kullanım
-- Uygulama ekranında okunan barkod verileri ekranda görüntülenir
-- (Kod snippet'inle ilgili örnek ekleyebilirsin)
+
+![BaslerCamera](images/Görsel1.png)
+![BaslerCamera](images/Görsel3.png)
+![BaslerCamera](images/Görsel2.png)
+![BaslerCamera](images/Görsel4.jpg)
+![BaslerCamera](images/Görsel5.jpg)
+
+## 🔧 Kurulum ve Çalıştırma
+
+1. Bu projeyi bilgisayarına klonla:
+   ```bash
+   git clone https://github.com/alknbugra/BaslerCamera.git
