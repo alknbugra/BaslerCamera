@@ -2,11 +2,11 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-.NET-blueviolet.svg)
-![Last Commit](https://img.shields.io/github/last-commit/alknbugra/CognexBarcodeReader?color=orange)
-![Repo Size](https://img.shields.io/github/repo-size/alknbugra/CognexBarcodeReader)
-![Downloads](https://img.shields.io/github/downloads/alknbugra/CognexBarcodeReader/total)
-![Issues](https://img.shields.io/github/issues/alknbugra/CognexBarcodeReader)
-![Release](https://img.shields.io/github/v/release/alknbugra/CognexBarcodeReader)
+![Last Commit](https://img.shields.io/github/last-commit/alknbugra/BaslerCamera?color=orange)
+![Repo Size](https://img.shields.io/github/repo-size/alknbugra/BaslerCamera)
+![Downloads](https://img.shields.io/github/downloads/alknbugra/BaslerCamera/total)
+![Issues](https://img.shields.io/github/issues/alknbugra/BaslerCamera)
+![Release](https://img.shields.io/github/v/release/alknbugra/BaslerCamera)
 
 # 📷 Basler A2A2448-75ucBAS Kamera Config Arayüzü
 
